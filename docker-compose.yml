@@ -9,7 +9,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U neon -d neonclub"]
+      test: ["CMD-SHELL", "pg_isready -U pulse -d pulse"]
       interval: 5s
       timeout: 3s
       retries: 12
@@ -17,6 +17,7 @@ services:
   api:
     build:
       context: ./Pulse.Api
+      dockerfile: Dockerfile
     restart: unless-stopped
     depends_on:
       db:
@@ -35,6 +36,7 @@ services:
   web:
     build:
       context: ./pulse-react
+      dockerfile: Dockerfile
     restart: unless-stopped
     depends_on:
       - api

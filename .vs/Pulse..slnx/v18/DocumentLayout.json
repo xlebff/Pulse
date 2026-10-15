@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DB93E-C952-C4F0-D4FA-0576EB5E940B}|pulse-react\\pulse-react.esproj|c:\\data\\01_education\\nodejs\\backend\\pulse\\pulse-react\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7E5DB93E-C952-C4F0-D4FA-0576EB5E940B}|pulse-react\\pulse-react.esproj|solutionrelative:pulse-react\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DB93E-C952-C4F0-D4FA-0576EB5E940B}|pulse-react\\pulse-react.esproj|c:\\data\\01_education\\nodejs\\backend\\pulse\\pulse-react\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7E5DB93E-C952-C4F0-D4FA-0576EB5E940B}|pulse-react\\pulse-react.esproj|solutionrelative:pulse-react\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|c:\\data\\01_education\\nodejs\\backend\\pulse\\pulse.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|solutionrelative:pulse.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 287,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "nginx.conf",
+              "DocumentMoniker": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\pulse-react\\nginx.conf",
+              "RelativeDocumentMoniker": "pulse-react\\nginx.conf",
+              "ToolTip": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\pulse-react\\nginx.conf",
+              "RelativeToolTip": "pulse-react\\nginx.conf",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-15T16:37:06.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\pulse-react\\Dockerfile",
+              "RelativeDocumentMoniker": "pulse-react\\Dockerfile",
+              "ToolTip": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\pulse-react\\Dockerfile",
+              "RelativeToolTip": "pulse-react\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-15T16:36:39.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-10-15T16:35:59.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "Pulse.Api\\Dockerfile",
+              "ToolTip": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\Dockerfile",
+              "RelativeToolTip": "Pulse.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-15T16:33:45.627Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
