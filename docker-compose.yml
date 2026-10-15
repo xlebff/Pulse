@@ -3,8 +3,8 @@ services:
     image: postgres:16-alpine
     restart: unless-stopped
     environment:
-      POSTGRES_DB: neonclub
-      POSTGRES_USER: neon
+      POSTGRES_DB: pulse
+      POSTGRES_USER: pulse
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - pgdata:/var/lib/postgresql/data
@@ -16,7 +16,7 @@ services:
 
   api:
     build:
-      context: ./NeonClub.Api
+      context: ./Pulse.Api
     restart: unless-stopped
     depends_on:
       db:
@@ -24,7 +24,7 @@ services:
     environment:
       ASPNETCORE_URLS: "http://+:5000"
       ASPNETCORE_ENVIRONMENT: Production
-      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=neonclub;Username=neon;Password=${POSTGRES_PASSWORD}"
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=pulse;Username=pulse;Password=${POSTGRES_PASSWORD}"
       Admin__Key: ${ADMIN_KEY}
       Cors__Origins: "https://${DOMAIN}"
     volumes:
@@ -34,7 +34,7 @@ services:
 
   web:
     build:
-      context: ./frontend
+      context: ./pulse-react
     restart: unless-stopped
     depends_on:
       - api
