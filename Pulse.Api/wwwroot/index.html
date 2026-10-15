@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pulse — Админка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="admin-header">
+            <div class="logo">
+                <span class="logo__mark" aria-hidden="true"></span>
+                <span class="logo__text">PULSE</span>
+            </div>
+            <span class="admin-header__badge">● Админ-панель</span>
+        </header>
+
+        <div class="login-bar">
+            <input id="keyInput" type="password" placeholder="Ключ администратора" autocomplete="off" />
+            <button id="loginBtn" class="btn btn--primary">Войти</button>
+            <span id="keyError" class="error"></span>
+        </div>
+
+        <div id="content" class="hidden">
+            <section class="admin-section">
+                <div class="admin-section__head">
+                    <h2 class="admin-section__title">Пользователи</h2>
+                </div>
+                <div class="table-wrap">
+                    <table id="usersTable">
+                        <thead>
+                            <tr>
+                                <th>Имя</th>
+                                <th>Email</th>
+                                <th>Роль</th>
+                                <th>Абонементов</th>
+                                <th>Создан</th>
+                                <th>Действие</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="admin-section">
+                <div class="admin-section__head">
+                    <h2 class="admin-section__title">Абонементы</h2>
+                </div>
+                <div class="table-wrap">
+                    <table id="ordersTable">
+                        <thead>
+                            <tr>
+                                <th>Тариф</th>
+                                <th>Пользователь</th>
+                                <th>Срок</th>
+                                <th>Сумма</th>
+                                <th>Статус</th>
+                                <th>Создан</th>
+                                <th>Действие</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="admin-section">
+                <div class="admin-section__head">
+                    <h2 class="admin-section__title">Загрузка изображения</h2>
+                </div>
+                <div class="upload-bar">
+                    <select id="userSelect"></select>
+                    <input type="file" id="fileInput" accept="image/*" />
+                    <button id="uploadBtn" class="btn btn--accent btn--sm">Загрузить</button>
+                    <span id="uploadStatus" class="error"></span>
+                </div>
+            </section>
+
+            <section class="admin-section">
+                <div class="admin-section__head">
+                    <h2 class="admin-section__title">Галерея</h2>
+                </div>
+                <div id="gallery" class="gallery"></div>
+            </section>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

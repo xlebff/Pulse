@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|c:\\data\\01_education\\nodejs\\backend\\pulse\\pulse.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|solutionrelative:pulse.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|c:\\data\\01_education\\nodejs\\backend\\pulse\\pulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|solutionrelative:pulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|c:\\data\\01_education\\nodejs\\backend\\pulse\\pulse.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|solutionrelative:pulse.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|c:\\data\\01_education\\nodejs\\backend\\pulse\\pulse.api\\wwwroot\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5E333EDC-92F6-32DE-9A78-42B150F9AFE3}|Pulse.Api\\Pulse.Api.csproj|solutionrelative:pulse.api\\wwwroot\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 287,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "Pulse.Api\\Dockerfile",
+              "ToolTip": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\Dockerfile*",
+              "RelativeToolTip": "Pulse.Api\\Dockerfile*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-15T15:35:00.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Pulse.Api\\appsettings.json",
+              "ToolTip": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\appsettings.json",
+              "RelativeToolTip": "Pulse.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-15T15:28:41.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\wwwroot\\admin.js",
+              "RelativeDocumentMoniker": "Pulse.Api\\wwwroot\\admin.js",
+              "ToolTip": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\wwwroot\\admin.js",
+              "RelativeToolTip": "Pulse.Api\\wwwroot\\admin.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-15T15:28:37.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Pulse.Api\\Program.cs",
+              "ToolTip": "C:\\Data\\01_Education\\NodeJS\\Backend\\Pulse\\Pulse.Api\\Program.cs",
+              "RelativeToolTip": "Pulse.Api\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T15:26:30.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

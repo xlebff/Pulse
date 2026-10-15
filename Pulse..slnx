@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".env" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="pulse-react/pulse-react.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Pulse.Api/Pulse.Api.csproj" />
+</Solution>
